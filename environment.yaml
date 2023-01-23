@@ -1,0 +1,24 @@
+name: napari-tutorial
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - hdbscan
+  - notebook
+  - numba
+  - numpy=1.22.0
+  - pooch
+  - pyclesperanto-prototype
+  - python=3.9
+  - pytorch=1.11.0
+  - pip>=22.0
+  - scikit-image
+  - torchvision
+  - pip:
+    - napari
+    - napari-clusters-plotter
+    - napari-pymeshlab
+    - PyQt5
+    - tifffile
+    - git+https://github.com/kevinyamauchi/empanada-napari.git@patch-1
